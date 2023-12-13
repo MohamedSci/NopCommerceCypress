@@ -26,7 +26,5 @@ for(var data of dataSet){
 }
   })
 
-// has not been tested yet
-
 });
 
