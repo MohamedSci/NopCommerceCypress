@@ -1,0 +1,21 @@
+[
+    {
+         "firstname" : "Mohamamed 971",
+         "lastname" : "Said Syed" ,
+         "email" : "mohamSaidSaid971@tester.com",
+         "password" : "12345678" 
+    },
+    {
+        "firstname" : "Mohamamed 972",
+        "lastname" : "Said Syed" ,
+        "email" : "mohamSaidSaid972@tester.com",
+        "password" : "12345678" 
+   },
+   {
+    "firstname" : "Mohamamed 973",
+    "lastname" : "Said Syed" ,
+    "email" : "mohamSaidSaid973@tester.com",
+    "password" : "12345678" 
+}
+    
+    ]

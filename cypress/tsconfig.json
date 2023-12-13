@@ -2,6 +2,8 @@
     "compilerOptions": {
       "target": "es5",
       "lib": ["es5", "dom"],
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
       "types": ["cypress", "node"]
     },
         "exclude": ["cypress.config.ts", "cypress", "node_modules"]//to avoid clashing with Jest
