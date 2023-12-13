@@ -1,21 +1,20 @@
 [
     {
-         "firstname" : "Mohamamed 971",
-         "lastname" : "Said Syed" ,
-         "email" : "mohamSaidSaid971@tester.com",
+         "firstname" : "Mohamamed0",
+         "lastname" : "Said Said 90" ,
+         "email" : "mohamSaidSS90@tester.com",
          "password" : "12345678" 
     },
     {
-        "firstname" : "Mohamamed 972",
-        "lastname" : "Said Syed" ,
-        "email" : "mohamSaidSaid972@tester.com",
-        "password" : "12345678" 
-   },
-   {
-    "firstname" : "Mohamamed 973",
-    "lastname" : "Said Syed" ,
-    "email" : "mohamSaidSaid973@tester.com",
-    "password" : "12345678" 
+     "firstname" : "Mohamamed1",
+     "lastname" : "Said Said 91" ,
+     "email" : "mohamSaidSS91@tester.com",
+     "password" : "12345678" 
+},
+{
+     "firstname" : "Mohamamed2",
+     "lastname" : "Said Said 92" ,
+     "email" : "mohamSaidSS92@tester.com",
+     "password" : "12345678" 
 }
-    
     ]

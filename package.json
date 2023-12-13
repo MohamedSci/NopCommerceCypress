@@ -2,6 +2,7 @@
   "devDependencies": {
     "@testing-library/cypress": "10.0.1",
     "cypress": "13.6.1",
+    "node-xlsx": "^0.23.0",
     "typescript": "^5.3.3"
   },
   "name": "candymappercypress",
@@ -69,6 +70,7 @@
     "figures": "^3.2.0",
     "forever-agent": "^0.6.1",
     "form-data": "^2.3.3",
+    "fs": "^0.0.1-security",
     "fs-extra": "^9.1.0",
     "fs.realpath": "^1.0.0",
     "function-bind": "^1.1.2",
@@ -176,6 +178,7 @@
     "which": "^2.0.2",
     "wrap-ansi": "^7.0.0",
     "wrappy": "^1.0.2",
+    "xlsx": "^0.19.3",
     "yallist": "^4.0.0",
     "yauzl": "^2.10.0"
   },
