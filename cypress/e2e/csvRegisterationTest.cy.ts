@@ -1,6 +1,16 @@
+import { List } from "cypress/types/lodash"
+
 const neatCsv = require("neat-csv")
 let table
-// describe("Csv Registeration",()=>{
+/***
+ * 1) npm install neat-csv --save-dev
+ * 2) assign the neat-csv package to a const
+ * 3) Put your Csv file in fixture folder
+ * 4) Use before hook to call a fixture of csv file
+ * 5) call .then(neatCsv) that will convert the data in the csv file into typescript object
+ * 6)call .then(data) to assign this data to public variable to enable you to use it in your tests
+ * 7) Use for loop to access the each data entity from  every row in your csv data file
+ */
 before(()=>{
     cy.fixture("csvData.csv")
        .then(neatCsv)
@@ -28,7 +38,6 @@ it('csvRegistrationTest', function() {
   }
     })
   
-//   });
 
 
 
