@@ -12,6 +12,7 @@ let table
  * 7) Use for loop to access the each data entity from  every row in your csv data file
  */
 before(()=>{
+        cy.visit('/')
     cy.fixture("csvData.csv")
        .then(neatCsv)
        .then(data=>{
@@ -22,7 +23,6 @@ before(()=>{
 
 it('csvRegistrationTest', function() {
   for(var data of table){
-    cy.visit('/')
     // Navigate to registeration form
     cy.get('.ico-register').click();
     // Input valid data into all required fields registeration form
