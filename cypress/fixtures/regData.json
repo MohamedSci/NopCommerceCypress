@@ -1,20 +1,20 @@
 [
     {
          "firstname" : "Mohamamed0",
-         "lastname" : "Said Said 90" ,
-         "email" : "mohamSaidSS96@tester.com",
+         "lastname" : "Said Said 95" ,
+         "email" : "mohamSaid95@tester.com",
          "password" : "12345678" 
     },
     {
      "firstname" : "Mohamamed1",
-     "lastname" : "Said Said 91" ,
-     "email" : "mohamSaidSS97@tester.com",
+     "lastname" : "Said Said 94" ,
+     "email" : "mohamSaid94@tester.com",
      "password" : "12345678" 
 },
 {
      "firstname" : "Mohamamed2",
-     "lastname" : "Said Said 92" ,
-     "email" : "mohamSaidSS98@tester.com",
+     "lastname" : "Said Said 93" ,
+     "email" : "mohamSaid93@tester.com",
      "password" : "12345678" 
 }
     ]
