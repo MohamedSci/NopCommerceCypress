@@ -9,6 +9,6 @@ export default defineConfig({
       // implement node event listeners here
       on('file:preprocessor',cucumber())
     },
-    specPattern:"cypress/e2e/BDD_Registration/*.feature"
+    specPattern:"cypress/e2e/*.feature"
   },
 });
