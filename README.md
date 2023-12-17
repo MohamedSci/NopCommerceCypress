@@ -1,8 +1,26 @@
 typescript integration with cypress
 Step 1: install nodejs and cypress (in my case i have already installed)
-Step 2: add tsconfig.json file to you project
-Step 3: install typescript
-Step 4 install cucumber configuration and plugin (npm install @types/cypress-cucumber-preprocessor)
-Step 5: Navigate to url https://www.npmjs.com/package/cypress-cucumber-preprocessor
-Step 6: change file names asts under cypress/support/ and cypress/plugin/
-Step 7: install @types/browserify
+Step 2: install typescript
+Step 3 install cucumber configuration and dev dependency (npm install @types/cypress-cucumber-preprocessor)
+Step 4 for more information: Navigate to url https://www.npmjs.com/package/cypress-cucumber-preprocessor
+
+Configuration of the Project Structure:
+1) package.json Add these dev dependencies ("Cypress", "@bahmutov/cypress-esbuild-preprocessor", "@badeball/cypress-cucumber-preprocessor")
+2) package.json Add   "cypress-cucumber-preprocessor": {
+						"step_definitions": "cypress/support/step_definitions/",
+						"nonGlobalStepDefinitions": false
+					  }
+3) cypress.config.js Add this after e2e :   e2e: {
+											baseUrl: "https://demo.nopcommerce.com",
+											setupNodeEvents(on, config) {
+											  on("file:preprocessor",
+											  createBundler({
+												plugins: [createEsbuildPlugin.default(config)],
+											  }));
+											  preprocessor.addCucumberPreprocessorPlugin(on, config);
+											  return config;
+											},
+											specPattern: "**/*.feature",
+										  },					  
+4) add *.feature file under cypress/e2e	
+5) add *.js step file support/step_definitions/	
