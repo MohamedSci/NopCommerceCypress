@@ -18,7 +18,7 @@ When("The User inputs valid Last Name",()=>{
     cy.get("#LastName").type("wqa")
 })
 When("The user inputs an email was not registered before",()=>{
-    cy.get("#Email").type("ata.email165@test.com")
+    cy.get("#Email").type("ataz123@test.com")
 })
 When("The user Inputs valid Password",()=>{
     cy.get("#Password").type("12345678")
